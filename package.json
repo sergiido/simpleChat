@@ -1,0 +1,16 @@
+{
+  "name": "chatv1",
+  "version": "1.0.0",
+  "description": "Chat simple app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engine": {
+  "node": "*",
+  "npm": "*"
+},
+  "dependencies": {
+    "socket.io": "*"
+  }
+}
