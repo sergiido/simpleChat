@@ -1,12 +1,11 @@
 <html>
         <head>
-                <title>Chat application with Node and Sockets</title>
+                <title>Open-Chat</title>
                 <script src="/socket.io/socket.io.js"></script>
                 <script src="http://code.jquery.com/jquery.js"></script>
                 <script>
-                        var name,
-										 //socket = io.connect("http://localhost:8888");
-                        socket = io.connect();
+                        var name;
+                        var socket = io.connect();
 
                         $(function () {
                                 //as the user to enter their nick name or name.
